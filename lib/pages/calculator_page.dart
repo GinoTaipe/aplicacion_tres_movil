@@ -94,9 +94,9 @@ class CalculatorPageState extends State<CalculatorPage> {
               decoration: BoxDecoration(
                 color: Theme.of(context).primaryColor,
                 image: DecorationImage(
-                  image: NetworkImage('https://miro.medium.com/v2/resize:fit:1200/1*3ARszX_aGy01siMzSotOeg.png'),
+                  image: AssetImage('assets/images/justificante.jpg'),
                   fit: BoxFit.cover,
-                  colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.3), BlendMode.dstATop),
+                  colorFilter: ColorFilter.mode(Color.fromRGBO(255, 255, 255, 0.3), BlendMode.dstATop),
                 ),
               ),
               child: Center(
